@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "imagens/Funko Pop 225 Marvel Spider-Man Homem De Ferro Tony Stark.jpg",
+      "titulo": "Funko Iron Man - Tony Stark",
+      "valor": "R$: 50,00"
+    },
+    {
+      "id": 2,
+      "imagem": "imagens/Funko_Pop_Capta.png",
+      "titulo": "Funko- Capta Marvel",
+      "valor": "R$: 50,00"
+    },
+    {
+      "id": 2,
+      "imagem": "imagens/funko Iron man tony stark.webp",
+      "titulo": " funko - Iron man tony stark",
+      "valor": "R$: 50,00"
+    },
+    {
+      "imagem": "imagens/funk-pop gwan.webp",
+      "titulo": "funko gwan",
+      "valor": "R$:50,00",
+      "id": 3
+    }
+  ]
+}

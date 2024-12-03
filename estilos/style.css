@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body,html{
+    height:100vh;
+    width:100vw;
+    background-color:none;
+}
+/* CABEÇALHO */
+.cabecalho{
+    min-height:100px;
+    width:100vw;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#C9B6F2;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.253);
+}
+.logo{
+    font-size:1.7em;
+    margin:0 4%;
+    
+}
+
+span{
+    color:#0424D9;
+}
+
+.add{
+    font-size:1.7em;
+    margin:0 4%;
+}
+
+.pesquisar{
+    display: none;
+}
+
+/* CONFIGURAÇÕES DO MAIN */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    min-height: 100vh;
+    width: 768px;
+    margin:auto;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.103);
+    padding:30px;
+    transform:height 0.3s,width 0.3s;
+    transition-timing-function: ease;
+}
+h2{
+    position: absolute;
+    top:1%;
+    left: 12%;
+    font-size:1.7em;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#C9B6F2;
+    text-shadow:1px 1px 5px#786c9154;
+
+}
+.secao{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 65px;
+    flex-wrap:wrap;
+    padding:50px 0px;
+
+}
+.produtos{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border:2px solid rgba(0, 0, 0, 0.514);
+    box-shadow:1px 1px 10px rgba(0, 0, 0, 0.219);
+    height:250px;
+    width:250px;
+    padding:10px;
+    border-radius:10px;
+    margin:auto;
+    transition:.2s;
+    position: relative;
+}
+.produtos:hover{
+    transform: scale(1.1);
+}
+img{
+    width:55%;
+}
+
+h3{
+    font-size: 1em;
+    font-weight:600
+}
+
+.remover{
+    position: absolute;
+    right:15px;
+    bottom: 10px;
+    color:rgb(0, 0, 0);
+}
+
+footer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+    height:130px;
+    text-align:center;
+    background-color:#C9B6F2;   
+}
+
+footer > strong{
+    font-size:1.5em;
+    color:rgba(0, 0, 0, 0.658);
+}
+footer > strong > span{
+    color:#0424d9af;
+}
+
+footer > p{
+    font-size:1em;
+    color:#5c5959ab;
+}
+
+footer a{
+    color:#5c5959ab;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+#no-results{
+    display:none;
+    text-align:center;
+}
+
+
+
+
