@@ -88,6 +88,7 @@ h2{
     margin:auto;
     transition:.2s;
     position: relative;
+    cursor: pointer;
 }
 .produtos:hover{
     transform: scale(1.1);
@@ -106,6 +107,7 @@ h3{
     right:15px;
     bottom: 10px;
     color:rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 footer{
